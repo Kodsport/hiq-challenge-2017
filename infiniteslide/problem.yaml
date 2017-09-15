@@ -1,0 +1,5 @@
+source: HiQ Challenge 2017
+source_url: http://codingcup.se
+author: Johan Sannemo
+license: cc by-sa
+validator_flags: float_tolerance 1e-4

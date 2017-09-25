@@ -2,7 +2,7 @@ import sys
 import re
 import random
 
-INT = "(0|[1-9][0-9]*)?"
+INT = "(0|[1-9][0-9]*)"
 TWO_INT = INT + " " + INT + "\\n"
 EVENT = "(enter|leave) " + INT + "\\n"
 

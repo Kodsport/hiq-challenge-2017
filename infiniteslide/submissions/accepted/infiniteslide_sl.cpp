@@ -25,7 +25,7 @@ void findmin(d lo, d flo, d hi, d fhi) {
 	d dif = hi - lo;
 	assert(abs(flo - fhi) <= maxder * dif);
 	if (min(fhi, flo) - maxder * dif > best) return;
-	if (hi - lo < 1e-10) return;
+    if (hi - lo < 1e-8) return;
 	d mid = (lo + hi) / 2;
 	if (lo == mid || mid == hi) return;
 	d fmid = f(mid);

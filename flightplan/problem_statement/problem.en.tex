@@ -1,7 +1,7 @@
 \problemname{Flight Plans}
 As you are probably aware, flight pricing can sometimes be surprisingly complex.
 For example, it can often be cheaper to take a much longer flight with several legs instead of flying directly between two airports.
-One of the reasons pricing seems to complex is that airlines often tries to obfuscate exactly how pricing works, in order to ensure that their customers choose more expensive flights.
+One of the reasons pricing seems to be complex is that airlines often try to obfuscate exactly how pricing works, in order to ensure that their customers choose more expensive flights.
 
 One particular airline has deciced to take this obfuscation to the next level; they do not even offer an automated search of their flights.
 Instead, they describe their flights in a very peculiar format.
@@ -13,12 +13,12 @@ For every one of their $N$ airports (which are numbered between $0$ and $N - 1$)
 
 To compensate for this complexity, the airline sets the price of every direct flight between two airports to the same amount.
 
-Can you write a program that, given the descriptions of all theh flights the airline provides, determine the minimum number of flights required to travel from airport $s$ to airport $t$?
+Can you write a program that, given the descriptions of all the flights the airline provides, determine the minimum number of flights required to travel from airport $s$ to airport $t$?
 
 \section*{Input}
 The first line of input contains an integer $1 \le N \le 10^5$, the number of airports, and the two integers $s$ and $t$ ($0 \le s, t < N$, $s \neq t$).
 
-The next $N$ lines each describes the outgoing flights of an airport, starting with airport $0$.
+The next $N$ lines each describe the outgoing flights of an airport, starting with airport $0$.
 The line starts with a letter.
 If this letter is \texttt{N}, you will get a list of all destination airports from this airport.
 If this letter is \texttt{C}, you will get a list of all airports that are \emph{not} destinations from this airport.

@@ -1,6 +1,6 @@
 \problemname{Haiku}
 A haiku is a Japanese form of poetry.
-It consists of three phrases of 5, 7 and 5 syllables each.
+It consists of three phrases of $5$, $7$ and $5$ syllables each.
 
 Once a year, HiQ has a haiku contest, where employees submit their best poems.
 The poems are then judged based on a wide range of aspects, such as
@@ -10,7 +10,7 @@ The poems are then judged based on a wide range of aspects, such as
     \item beauty
     \item whether the poem is actually a haiku
 \end{itemize}
-This last point turned out to be quite a challenge for the judges (many problems arose when half the judges indexed syllables starting at 0 and the other half at 1).
+This last point turned out to be quite a challenge for the judges (many problems arose when half the judges indexed syllables starting at $0$ and the other half at $1$).
 
 Can you help the judges to determine whether a submitted poem is a haiku, given a set of syllables?
 Note that there \textbf{may exists multiple decompositions} of a single word in the poem into syllables.
@@ -19,19 +19,19 @@ In this case, you should determine whether \textbf{some} decomposition is a haik
 \section*{Input}
 The first line of input contains a single integer $1 \le S \le 100$, the number of syllables.
 The next line contains $S$ words separated by spaces (the syllables).
-Each syllable contains at most 7 lowercase letters \texttt{a-z}.
+Each syllable contains at most $7$ lowercase letters \texttt{a-z}.
 
 Then, three lines containing the poem follow.
 Each line contains a (non-empty) list of words separated by spaces.
 The words contain only lowercase letters \texttt{a-z}.
-The length of each line is at most 100 characters (including spaces).
+The length of each line is at most $100$ characters (including spaces).
 
 It is guaranteed that there exists \textbf{at least one} decomposition of the poem into the given syllables.
 
 \section*{Output}
 Output \texttt{``haiku''} if the given poem is a haiku, and \texttt{``come back next year''} otherwise (without the quotes).
 
-\section*{Explanation of sample 1}
+\section*{Explanation of Sample Input 1}
 One possible decomposition into a haiku is:
 \begin{verbatim}
 spe-lling ve-ry hard
@@ -39,5 +39,5 @@ ear-ly in mor-ning ti-red
 i need cov-fe-fe
 \end{verbatim}
 
-\section*{Explanation of sample 3}
-No matter how the third line is decomposed, it contains 8 syllables instead of 5, so it can not be a haiku.
+\section*{Explanation of Sample Input 3}
+No matter how the third line is decomposed, it contains $8$ syllables instead of $5$, so it can not be a haiku.

@@ -28,7 +28,7 @@ for i in range(N):
         assert 0 <= x and x < N
         assert x != i
 
-assert sumcount <= 4*10**5
+assert sumcount <= 2*10**5
 
 line = sys.stdin.readline()
 assert len(line) == 0

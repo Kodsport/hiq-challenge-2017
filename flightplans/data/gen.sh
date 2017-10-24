@@ -15,8 +15,8 @@ echo done 1
 python3 gen2.py n=100000 k=300 100 > secret/2-1.in
 echo done 2
 
-python3 gen3.py n=50000 k=0 1 > secret/3-1.in
-python3 gen3.py n=50000 k=1 2 > secret/3-2.in
+python3 gen3.py n=40000 k=0 1 > secret/3-1.in
+python3 gen3.py n=40000 k=1 2 > secret/3-2.in
 python3 gen3.py n=50000 k=100000 3 > secret/3-3.in
 echo done 3
 

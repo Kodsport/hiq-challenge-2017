@@ -1,4 +1,4 @@
-
+#pragma GCC optimize ("O3")
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,7 +21,8 @@ int main() {
 	bool success = true;
 	while (success) {
 		success = false;
-		rep(i,0,N) if (a[i] > r.back()) {
+		int last = r.back();
+		rep(i,0,N) if (a[i] > last) {
 			r.push_back(a[i]);
 			success = true;
 			break;

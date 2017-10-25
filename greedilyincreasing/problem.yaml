@@ -2,3 +2,5 @@ source: HiQ Challenge 2017
 source_url: http://codingcup.se
 author: Johan Sannemo
 license: cc by-sa
+limits:
+    time_multiplier: 6
